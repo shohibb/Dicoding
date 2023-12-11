@@ -3,6 +3,8 @@
 # Instalasi dan set up environment
 
 '''
+conda create --name main-ds python=3.9
+conda activate main-ds
 pip install streamlit
 '''
 karena saya hanya menggunakan python yang dijalankan pada visual studio code maka perintah tersebutlah yang saya gunakan
