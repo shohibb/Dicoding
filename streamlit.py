@@ -28,7 +28,7 @@ option = st.sidebar.selectbox('Select Visualization', ['Line Plot', 'Correlation
 
 # Display selected visualization
 if option == 'Line Plot':
-    st.subheader('Total Pengguna Selama Tahun 2012')
+    st.subheader('Total Pengguna Selama Tahun 2011 dan 2012')
     st.line_chart(daybyYear2011[['cnt', 'cnt']])
 
 elif option == 'Correlation Heatmap':
